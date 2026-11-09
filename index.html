@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Produce</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header><h1>Produce</h1>
+  <nav id="modules">
+    <button data-m="record" class="on">Record</button>
+    <button data-m="beets">Beets</button>
+    <button data-m="sprouts">Sprouts</button>
+    <button data-m="diced">Diced</button>
+    <button data-m="master">Mix/Master</button>
+  </nav>
+</header>
+<main>
+  <section id="record" class="module on">
+    <button id="rec">● Record</button>
+    <span id="status">Ready</span>
+    <ul id="takes"></ul>
+  </section>
+  <section id="beets" class="module"><p>Beets: beat maker. Coming next.</p></section>
+  <section id="sprouts" class="module"><p>Sprouts: coming soon.</p></section>
+  <section id="diced" class="module"><p>Diced: sample/loop station. Coming soon.</p></section>
+  <section id="master" class="module"><p>Mixing &amp; mastering (name TBD). Coming soon.</p></section>
+</main>
+<script src="app.js"></script>
+</body>
+</html>
